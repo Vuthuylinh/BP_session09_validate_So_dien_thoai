@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isValidatePhoneNumber(str) {
+        regexp=/^[0-9]{2}(\-)+[0]+[0-9]{9}?$/;
+      if(regexp.test(str)){
+          alert("this is a validade phone number")
+      } else{alert("this is not a validate phone number")
+      }
+
+    }
+    let string1="12-00123456870";
+    isValidatePhoneNumber(string1);
+    let string2="jk-22909000988";
+    isValidatePhoneNumber(string2);
+</script>
+</body>
+</html>
